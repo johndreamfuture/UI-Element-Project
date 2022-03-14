@@ -1,0 +1,106 @@
+
+
+.container{
+  width: 900px;
+  height: 450px;
+  background-color: beige;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+}
+.smallBox{
+  width: 140px;
+  height: 140px;
+  
+}
+.smallImg{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.bigBox{
+  width: 600px;
+  height: 300px;
+  background-color: rgb(108, 102, 96);
+  border-radius: 0 15px 15px 0;
+  position: absolute;
+  left: 50%;
+  margin-left: -300px;
+  top: 50%;
+  margin-top: -150px;
+  display: none
+
+
+}
+.cornerBox{
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  position: absolute;
+  top:0px;
+  right: 0px;
+  background-color: rgb(11, 2, 19);
+  border-radius: 5px 5px 5px 15px;
+  opacity: .4;
+  cursor: pointer;
+  
+}
+.close{
+  color: #f0e8e8;
+  margin-left:5px;
+  margin-top:1px ;
+}
+.bigBoxLeft{
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+  display: inline-block;
+  
+  
+}
+.bigImg{
+  width: 100%;
+  height: 100%;
+  
+}
+.bigBoxRight{
+  width: 300px;
+  height: 300px;
+  background-color: green;
+  display: inline-block;
+  vertical-align: top;
+  
+}
+
+.slideLeftBox{
+  width: 40px;
+  height: 40px;
+  background-color: aquamarine;
+  opacity: .4;
+  position: absolute;
+  left: 0;
+  top:130px
+}
+.slideRightBox{
+  width: 40px;
+  height: 40px;
+  background-color: aquamarine;
+  opacity: .3;
+  position: absolute;
+  right: 0;
+  top:130px;
+}
+.moveLeft{
+  color: blueviolet;
+  margin-top: 0;
+}
+.moveRight{
+  color: blueviolet;
+  margin-top: 0;
+ 
+ 
+}
