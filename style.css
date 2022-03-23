@@ -83,7 +83,8 @@
   opacity: .4;
   position: absolute;
   left: 0;
-  top:130px
+  top:130px;
+  display:none;
 }
 .slideRightBox{
   width: 40px;
@@ -93,6 +94,7 @@
   position: absolute;
   right: 0;
   top:130px;
+  display:none;
 }
 .moveLeft{
   color: blueviolet;
